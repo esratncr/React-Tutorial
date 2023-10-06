@@ -1,0 +1,6 @@
+==> https://codepen.io/search/pens?q=css+art buradaki örnekleri inceleye bilirsin
+
+==> inline Css =  Html kısmında style olarak bekirttiğimiz css (bu bizi yoracaktır)
+==> internal Css = Html kısmında <style> </style> bu bu şekilde açıp içersine yazdığımız sitillerdir burada tek bir defa tanımlama yapılıyor.
+==> external CSS = Bu Css ile  dosya açılıp oraya yazılır
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet</title>
+</head>
+<body>
+    <!--
+        > -- içinde oge
+    
+        + --  Kardes oge
+        ^  --üste cık
+        * -- x kadar çoğalt
+        . -- classes
+        # -- id
+        () -- gruplar 
+        lorem -- anlamsız kelimeler
+        $ -- sonuna gelen sayıları döndürmek icin kullanılır
+        {} -- içine alan
+        [] -- seçici (css gibi)
+
+
+
+    -->
+   <!--.class.js.esra.html.tuncer yazında asağıdaki sekilde cıkıyor-->
+   <div class="class js esra html tuncer"></div>
+   
+   <!--h1.esra#yazilim yazınca asagıdaki cıkıyor-->
+  <h1 class="esra" id="yazilim"></h1>
+
+  <!--Emmet 2. Bölüm-->
+
+  <!--ul>li{yazılım} seklinde yazılır-->
+  <ul>
+    <li>yazılı</li>
+  </ul>
+   <!--h1>{icindeki yazi}^h2>{icindeki yazi}^h3>{icindeki yazi}-->
+
+   <h1>icindeki yazi</h1>
+   <h2>icindeki yazı</h2>
+   <h3>icindeki yazi</h3>
+    <!--Emmet 3. Bölüm-->
+ 
+    <!--biligileri birleştir-->
+
+    <!--h1.title>lorem4(h2.esra-title>lorem4^p*3>lorem2^ul*2>li.item*5>lorem1)-->
+   <h1 class="title">Lorem ipsum dolor sit.</h1>
+   <h2 class="esra-title">Lorem ipsum dolor sit.</h2>
+   <h2 class="sub-title">Lorem, ipsum dolor.</h2>
+   <p>Lorem, ipsum.</p>
+   <p>A, eaque?</p>
+   <p>Voluptate, ullam.</p>
+   <ul>
+    <li class="item">Lorem, ipsum.</li>
+    <li class="item">Quidem, sit.</li>
+    <li class="item">Perferendis, voluptatem!</li>
+    <li class="item">Magnam, iste?</li>
+    <li class="item">Nemo, asperiores.</li>
+   </ul>
+   <ul>
+    <li class="item">Lorem, ipsum.</li>
+    <li class="item">Enim, fugit.</li>
+    <li class="item">Quibusdam, doloremque.</li>
+    <li class="item">Esse, perspiciatis.</li>
+    <li class="item">Fugiat, vero!</li>
+   </ul>
+   <h2 class="sub-title"></h2>
+   <p>Lorem, ipsum.</p>
+   <p>Obcaecati, ipsa.</p>
+   <p>Saepe, error.</p>
+   <ul>
+    <li class="item">Lorem, ipsum.</li>
+    <li class="item">Fuga, possimus.</li>
+    <li class="item">Inventore, aliquam.</li>
+    <li class="item">A, praesentium.</li>
+    <li class="item">Suscipit, dolor?</li>
+   </ul>
+   <ul>
+    <li class="item">Lorem, ipsum.</li>
+    <li class="item">Quidem, ullam?</li>
+    <li class="item">Voluptas, magnam?</li>
+    <li class="item">Consequatur, enim?</li>
+    <li class="item">Facilis, iure.</li>
+   </ul>
+   <!-- h1.item>lorem2^ul*2>li.item*2>lorem -->
+<h1 class="item">Lorem, ipsum.</h1>
+
+
+
+<!--$ ile sıralama işlemleri-->
+
+<!-- ul>li.item-$*3{item-- $} -->
+  <ul>
+    <li class="item-1">item--1 </li>
+    <li class="item-2">item--2 </li>
+    <li class="item-3">item--3 </li>
+  </ul>
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

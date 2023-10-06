@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linklerle çalismak</title>
+</head>
+<body>
+    
+    <!--link-->
+   <!--a etiketi
+     href: link adresi
+     target="_blank": yeni sekmede açılırsa kullanılabilir>
+     download="buraya indirmek istediğin dosyayı ekle"
+     mail
+     tel
+     -->
+
+     <!-- (h2#article-$>{makale $}^a[href="#article$@2"]>{bir sonraki makaleye git}^p*3>lorem10^ul*3>li*5{item})*2 -->
+
+     <h1 id="sayfa-basi">Sayafa Başı</h1>
+     <a href="#sayfa-sonu"> sayfa sonuna git</a>
+     <h2 id="article-1">makale 1</h2>
+     <a href="#article-2">bir sonraki makaleye git</a>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, consequatur!</p>
+     <p>Ex minima quo dolore expedita, at quam commodi nisi deleniti!</p>
+     <p>Dolorum expedita ipsam magnam ea praesentium hic veritatis ipsum mollitia!</p>
+     <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+     </ul>
+     <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+     </ul>
+     <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+     </ul>
+     <h2 id="article-2">makale 2</h2>
+     <a href="#article-3">bir sonraki makaleye git</a>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, temporibus.</p>
+     <p>Veritatis vel eveniet quibusdam ipsa obcaecati porro enim consequuntur dolorem.</p>
+     <p>Recusandae asperiores alias a harum at reprehenderit maxime expedita? Veritatis?</p>
+     <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+     </ul>
+     <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+     </ul>
+     <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+     </ul>
+     
+     <h1 id="sayfa-sonu">Sayfa Sonu</h1>
+     <a href="#sayfa-basi">sayfa basına git</a>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+ console.log((firtName+" " +lastName).length) ==> burada uzunluk bulabilirsin
+
+
+ console.log("firstName[]",firtName[0])==> burada kaçıncı karakter olmasını istiyorsan onu yakalarsın
+
+ console.log("firstName.charAt(0)", firtName.charAt(0))
+//burda ise belirtilen indeksin harfini alabiliriz
+
+
+
+ console.log('esra\'ın özel bir hayatı var ama kime ne' )
+\ burada üs oldugunu belirtir
+ 
+
+ let myName = " esra \" sen yazmalısın \" dedi"
+console.log(myName) = esra " sen yazmalısın " dedi
+\ bu şekilde tırnak işaretlerini kullanmak için çift tırnak kullanmaısın
+
+
+ console.log("firstName.toLowerCase()",firtName.toLowerCase())
+ // büyük küçük harf duyarlılığından dolayı tüm harfler küçük
+ // toUpperCase de ise bütün harfler büyük yazıyor
+
+
+ console.log(firtName.toLowerCase().search("n"))
+// burda tüm harfleri küçültüp öyle arama yaptı
+
+
+==> consol kısmında da js kullanabilirz 
+document.getElementsByTagName("")[] bu sekilde body bölümdeki istediğin kısmı çagırabiliresinz
+
+==>Seçmak istediğim classları ise querySelector ve querySelectorAll ile yapılıyor..
+querySelector(".class") seklinde seçebiliriz.
+
+
+==>if (kosul){
+    yapılacak işlem
+} else{
+    koşul yok
+}
+
+==> Array [] burada .push ile yeni öğre eklenir ama sona 
+.unSft ile ilk kısma eklenşr
+
+==>const usersStrToArray = users.split(",") bu sekilde Array yapıyorsun 
+==> console.log(items.slice(2,5)) slice ile var olan değerleri hemn bulmamızı sağlıyor
+==> .includes("") bu ise arraylerin içerisinde varmı diye kontrol etmemizi sağlıyor
+==> indexOg ise nerde oldugunu belirtir
+
+
+
+==>Fonksiyonlarla çalışmak <==
+
+

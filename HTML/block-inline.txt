@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block inline Etiketler</title>
+</head>
+
+<body>
+
+    <h1>block etiket</h1>
+    <p>1.Paragraf Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quae ducimus neque itaque adipisci architecto
+        fugiat natus dicta magnam quisquam.
+
+    </p>
+    <p>
+        <strong>
+            2. Paragraf Lorem ipsum dolor sit amet consectetur adipisicing elit</strong>.
+        <em>Et maiores expedita eos exercitationem quod nisi obcaecati nulla fugit</em> minima aliquid, cupiditate,
+        delectus ducimus quasi ipsa eius esse quas necessitatibus
+        officiis!
+    </p>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis ex dolorem minus. Rem recusandae ipsum laudantium id minus sunt.</p>
+
+<ul>
+    <li><a href="#">Lorem.</a></li>
+    <li><a href="#">Nobis.</a></li>
+    <li><a href="#">Quis.</a></li>
+    <li><a href="#">Dolore?</a></li>
+    <li><a href="#">Dolorem?</a></li>
+</ul>
+<hr>
+
+
+<!--Tablolarla çalısmak-->
+<table>
+    <thead>
+    <th>bolum1</th>
+    <th>bolum2</th>
+    <th>bolum3</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Asperiores, veniam?</td>
+            <td>Quis, blanditiis!</td>
+            
+        
+        </tr>
+        <tr>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Rerum, illum inventore.</td>
+        <td>Reprehenderit, sunt expedita!</td>
+    </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>footer1</td>
+            <td>footer2</td>
+            <td>footer3</td>
+        </tr>
+    </tfoot>
+    
+</table>
+
+<!-- <blockquote contenteditable="true">
+    <p>Edit this content to add your own quote</p>
+</blockquote>  bu etiket say-->
+
+
+
+
+</body>
+
+</html>

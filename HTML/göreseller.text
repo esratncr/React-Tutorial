@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Görseller ile çalişmak</title>
+</head>
+
+<body>
+    <!--img ile çalısmak-->
+
+    <img src="/img/images (1).jpg" alt="kedi görseli">
+    <br>
+    <hr>
+
+    <img src="/img/images (2).jpg" alt="">
+    <img src="/img/images.jpg" alt="">
+    <br>
+    <hr>
+
+    <img src="/img/indir.jpg" alt="">
+    <br>
+    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
+    <hr>
+
+
+    <a href="https://www.udemy.com/home/my-courses/learning/" target="_blank">
+        <img src="https://picsum.photos/id/237/200/300" alt=""></a>
+
+
+
+
+    <!--bold ve italik-->
+    <!--italik için em tagını kullanıyorz-->
+
+    <p>
+        <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <em >Id facilis possimus necessitatibus</em>,
+            consequatur alias natus vitae consectetur nemo perspiciatis quaerat!</strong>
+    </p>
+
+    
+
+
+
+</body>
+
+</html>

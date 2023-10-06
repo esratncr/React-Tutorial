@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JavaScript</title>
+    <link rel="stylesheet" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        ul{
+            list-style: none;
+
+        }
+        nav {
+            background: #eb7b7b;
+        }
+
+        ul.menu {
+            display: flex;
+            
+        }
+
+        ul.menu>li {
+            margin: 10px;
+        }
+        .dropdown-menu{
+            position: fixed;
+            background-color: #c2bdce;
+        
+        }
+        .open{
+            display: block;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li>Anasayfa</li>
+            <li class="dropdown">Kategori <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                </svg>
+                <ul class="dropdown-menu ">
+                    <li>Bilgisayar</li>
+                    <li>Telefon </li>
+                    <li>Tablet</li>
+                </ul>
+            </li>
+            <li>Ürünler</li>
+            <li>İletişim</li>
+
+        </ul>
+    </nav>
+
+
+    <div>
+       <h1 class="title">JavaScript</h1>
+       <button class="items">tıkla</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

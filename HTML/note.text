@@ -1,0 +1,14 @@
+==> İlk dosyan mutlaka index.html olmalı
+==> index.html kısmında https://simplecss.org/ yararlanılarak proje oluşturduk
+==> 
+
+
+==> <blockquote contenteditable="true">
+    <p>Edit this content to add your own quote</p>
+    </blockquote> ==> bu etiket sayesinde browser da düzenleme yapabilirsin
+
+==> Block ve inline kısımlarını öğrendik
+ 
+==> https://www.w3schools.com/html/default.asp burada cok fazla kaynak var.
+
+==> 
